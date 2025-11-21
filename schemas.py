@@ -45,6 +45,8 @@ class Shuttle(BaseModel):
     latitude: Optional[float] = Field(None, description="Current latitude")
     longitude: Optional[float] = Field(None, description="Current longitude")
     status: str = Field("idle", description="idle|enroute|charging|maintenance")
+    capacity: int = Field(12, ge=1, le=60, description="Total seats")
+    occupancy: int = Field(0, ge=0, description="Seats currently occupied")
 
 class Booking(BaseModel):
     """
@@ -59,6 +61,8 @@ class Booking(BaseModel):
     scheduled_time: Optional[datetime] = Field(None, description="Planned pickup time; None means ASAP")
     status: str = Field("confirmed", description="confirmed|completed|canceled")
     eta_minutes: Optional[int] = Field(None, ge=0, le=120, description="Estimated minutes until pickup")
+    seats: int = Field(1, ge=1, le=6, description="Seats requested")
+    qr_token: Optional[str] = Field(None, description="Signed token for boarding QR")
 
 # Example user model if needed elsewhere
 class User(BaseModel):

@@ -1,14 +1,23 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [198] using StatReload
-INFO:     Started server process [200]
+INFO:     Started reloader process [283] using StatReload
+INFO:     Started server process [285]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:39878 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:59690 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59690 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:59676 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57604 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57620 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57620 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
-INFO:     172.20.0.1:57604 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52494 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:34480 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34480 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34480 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34480 - "GET /stops?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "POST /simulate/telemetry?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34492 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34502 - "POST /simulate/telemetry?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34502 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53044 - "POST /simulate/telemetry?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53044 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53046 - "POST /simulate/telemetry?campus=Tesano HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53046 - "GET /shuttles?campus=Tesano HTTP/1.1" 200 OK
